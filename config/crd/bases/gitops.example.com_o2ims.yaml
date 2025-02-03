@@ -41,6 +41,8 @@ spec:
             properties:
               deploymentManager:
                 type: string
+              desrciption:
+                type: string
               endpoint:
                 type: string
             type: object
