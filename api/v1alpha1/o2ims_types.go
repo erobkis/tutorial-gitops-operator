@@ -54,6 +54,7 @@ type O2ImsSpec struct {
 	// +kubebuilder:validation:Required
 	Endpoint          string `json:"endpoint,omitempty"`
 	DeploymentManager string `json:"deploymentManager,omitempty"`
+	Description       string `json:"desrciption,omitempty"`
 }
 
 // O2ImsStatus defines the observed state of O2Ims
